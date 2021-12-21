@@ -9,13 +9,13 @@ Build
 Build from `Dockerfile`:
 
 ```shell
-sudo docker build -t 3psy0n/phpmd .
+$ docker build -t 3psy0n/phpmd .
 ```
 
 Verify build:
 
 ```shell
-sudo docker run --rm -it 3psy0n/phpmd --version
+$ docker run --rm -it 3psy0n/phpmd --version
 ```
 
 Usage
